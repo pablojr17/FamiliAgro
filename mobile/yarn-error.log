@@ -1,0 +1,78 @@
+Arguments: 
+  /usr/bin/node /usr/share/yarn/bin/yarn.js global bin
+
+PATH: 
+  /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/pablo/Android/Sdk/emulator:/home/pablo/Android/Sdk/tools:/home/pablo/Android/Sdk/tools/bin:/home/pablo/Android/Sdk/platform-tools:/home/pablo/android-studio/bin
+
+Yarn version: 
+  1.22.5
+
+Node version: 
+  10.19.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  SyntaxError: /home/pablo/Documentos/AgroConnect/mobile/package.json: Unexpected token } in JSON at position 1253
+      at JSON.parse (<anonymous>)
+      at /usr/share/yarn/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/usr/share/yarn/lib/cli.js:310:30)
+      at /usr/share/yarn/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "main": "node_modules/expo/AppEntry.js",
+    "scripts": {
+      "start": "expo start",
+      "android": "expo start --android",
+      "ios": "expo start --ios",
+      "web": "expo start --web",
+      "eject": "expo eject"
+    },
+    "dependencies": {
+      "@expo-google-fonts/inter": "^0.1.0",
+      "@expo-google-fonts/roboto": "^0.1.0",
+      "@expo-google-fonts/ubuntu": "^0.1.0",
+      "@react-native-community/masked-view": "0.1.6",
+      "@react-native-community/picker": "^1.6.1",
+      "@react-navigation/native": "^5.5.0",
+      "@react-navigation/stack": "^5.4.1",
+      
+      "expo": "~38.0.8",
+      "expo-status-bar": "^1.0.2",
+      "react": "~16.11.0",
+      "react-dom": "~16.11.0",
+      "react-native": "https://github.com/expo/react-native/archive/sdk-38.0.2.tar.gz",
+      "react-native-web": "~0.11.7",
+      "axios": "^0.19.2",
+      "expo-constants": "~9.0.0",
+      "expo-font": "~8.1.0",
+      "expo-location": "~8.1.0",
+      "expo-mail-composer": "^8.1.0",
+      "react-icons": "^3.10.0",
+      "react-native-gesture-handler": "~1.6.0",
+      "react-native-maps": "0.26.1",
+      "react-native-picker-select": "^7.0.0",
+      "react-native-reanimated": "~1.7.0",
+      "react-native-safe-area-context": "0.7.3",
+      "react-native-screens": "~2.2.0",
+      "react-native-svg": "11.0.1",
+    },
+    "devDependencies": {
+      "@babel/core": "^7.8.6",
+      "@types/react": "~16.9.23",
+      "@types/react-native": "~0.61.17",
+      "babel-preset-expo": "~8.1.0",
+      "metro": "^0.59.0",
+      "typescript": "~3.8.3"
+    },
+    "private": true
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
