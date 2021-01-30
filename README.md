@@ -17,9 +17,7 @@ Essa aplicação foi construída durante o Hackthon da <a href="https://doity.co
 <p>Mobile <a href="https://reactnative.dev/">React Native</a></p>
 
 <h2>:farmer:Resultado:farmer:</h2>
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/47211806/93694325-b258be00-fae0-11ea-8d9c-719e47fc99f9.png"/>
-</p>
+![faami](https://user-images.githubusercontent.com/47211806/106358311-4c7c0e80-62ea-11eb-92ea-0986daf116d7.gif)
 
 ```js
 # Instale as dependências
